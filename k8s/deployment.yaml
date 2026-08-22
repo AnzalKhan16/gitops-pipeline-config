@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: gitops-demo-app
-          image: gitops-demo-app:local
+          image: ghcr.io/anzalkhan16/gitops-demo-app:latest
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000
