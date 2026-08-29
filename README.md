@@ -36,3 +36,5 @@ kubectl apply -f k8s/service.yaml
 ```
 
 In normal operation this is never needed — ArgoCD handles it.
+
+Author - Mohammad Anzal Khan
