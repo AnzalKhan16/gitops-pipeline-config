@@ -1,4 +1,4 @@
-# gitops-pipeline-config
+# gitops-pipeline-configuration 
 
 The desired-state repo for [`gitops-pipeline-app`](https://github.com/AnzalKhan16/gitops-pipeline-app). This repo contains **only Kubernetes manifests** — no application code — and is the single source of truth ArgoCD watches to keep the cluster in sync.
 
@@ -35,6 +35,6 @@ kubectl apply -f k8s/deployment.yaml
 kubectl apply -f k8s/service.yaml
 ```
 
-In normal operation this is never needed — ArgoCD handles it.
+In normal operation this is never needed — ArgoCD handles it 
 
 Author - Mohammad Anzal Khan
